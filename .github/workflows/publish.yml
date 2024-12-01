@@ -3,7 +3,7 @@ name: Publish Python Package
 on:
   push:
     branches:
-      - main  # Adjust the branch name if needed
+      - '*'
   workflow_dispatch:  # Allows manual triggers
 
 jobs:
